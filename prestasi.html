@@ -3,6 +3,10 @@
 <head>
     <title>Prestasi - SMA Kolese Loyola</title>
     <style>
+    @font-face {
+        font-family: 'Source Sans 3';
+        src: url('resources/font/Source_Sans_3/SourceSans3-Italic-VariableFont_wght.ttf');
+    }
     .footer {
         padding: 24px;
         background-color: #1B2F4B;
@@ -32,6 +36,103 @@
         color: black;
         text-decoration: none;
     }
+    .judul-besar {
+        font-size: 64px;
+        color: #1B2F4B;
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0;              
+        line-height: 1.1;      
+    }
+    .container1{
+        display: flex;
+        align-items: center; 
+        gap: 80px;           
+        max-width: 1100px;    
+        margin: 30px auto;
+        justify-content: center;
+    }
+    .container2 {
+        display: flex;
+        align-items: center; 
+        gap: 80px;           
+        max-width: 1100px;    
+        margin: 50px auto;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 50px 24px;
+        background-color: #F3F5F8;
+    }
+    .subjudul {
+        display: flex;
+        flex-direction: column;     
+        align-items: center;        
+        margin-bottom: 32px;
+    }
+    .teks-subjudul {
+        margin: 0 0 14px 0;
+        font-size: 18px;
+        color: #5A6575;
+        text-align: center;
+    }
+    .hiasan {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+    .hiasan-garis {
+        width: 60px;
+        height: 2px;
+        background-color: #C8A24A;   
+    }
+    .hiasan-titik {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;          
+        background-color: #C8A24A;
+    }
+    .kartu {
+        flex: 1 1 30%;               
+        min-width: 240px;
+        display: flex;
+        flex-direction: column;      
+        background-color: #FFFFFF;
+        border: 1px solid #E4E8EE;
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    .kartu-isi {
+        flex: 1;                     
+        flex-direction: column;
+        padding: 20px;
+        display: flex;
+        font-family: 'Source Sans 3', Arial, Helvetica, sans-serif;
+    }
+    .baris-kartu {
+        display: flex;
+        flex-wrap: wrap;             
+        gap: 24px;
+    }
+    .gambar-juara{
+        display: block;
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    .tombol {
+        display: inline-block;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 8px;
+        background-color: #1B2F4B;
+        color: #FFFFFF;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        text-decoration: none;
+        cursor: pointer;
+        text-decoration: none;
+    }
     
     </style>
 </head>
@@ -44,6 +145,58 @@
             <a href="ekstrakulikuler.html" class="no-underlined">Ekstrakulikuler</a>
             <a href="info.html" class="no-underlined">Info</a>
         </div>
+    </div>
+
+    <div class="container1">
+        <h1 class="judul-besar">Prestasi</h1>
+    </div>
+    
+    <div class="subjudul">
+        <p class="teks-subjudul">Beberapa prestasi yang didapat oleh anak-anak SMA Kolese Loyola</p>
+        <div class="hiasan">
+            <div class="hiasan-garis"></div>
+            <div class="hiasan-titik"></div>
+            <div class="hiasan-garis"></div>
+        </div>
+    </div>
+
+    <div class="container2">
+        <div class="baris-kartu">
+
+            <div class="kartu">
+                <img src="resources/photos/Juara1.jpeg" alt="Lomba Lukis" class="gambar-juara">
+                <div class="kartu-isi">
+                    <h3>Juara 1 Lomba Lukis LPSK Jawa Tengah</h3>
+                    <p>SMA Kolese Loyola kembali mengukir prestasi membanggakan di bidang seni rupa. Kenzo Ebeneezer Yu, siswa kelas XII SMA Kolese Loyola, berhasil menyabet Juara I dalam ajang Lomba Lukis yang diselenggarakan oleh Perwakilan Lembaga Perlindungan Saksi dan Korban (LPSK) Jawa Tengah.
+                        Kompetisi yang berlangsung pada Minggu, 9 Agustus 2026 ini bertempat di Kantor Perwakilan LPSK Jawa Tengah. Mengusung tema “LPSK: Perlindungan Saksi dan Korban, Menghadirkan Keadilan bagi Semua”, Kenzo mampu menerjemahkan gagasan tentang pentingnya rasa aman, perlindungan hukum,
+                        dan penegakan keadilan bagi masyarakat ke dalam sebuah karya visual yang sarat makna dan bernilai estetis tinggi.</p>
+                </div>
+            </div>
+
+            <div class="kartu">
+                <img src="resources/photos/Juara2.jpeg" alt="Lomba Debat" class="gambar-juara">
+                <div class="kartu-isi">
+                    <h3>Juara 2 Lomba Debat Indonesia (LDI) Bahasa Inggris tingkat Provinsi</h3>
+                    <p>Chloe Jocelyn Santoso (XI-F/8) berhasil meraih juara 2 Lomba Debat Indonesia (LDI) Bahasa Inggris tingkat Provinsi pada Kamis, 4 Juni 2026 dan sekaligus menjadi perwakilan Provinsi Jawa Tengah di tingkat nasional.
+                        Pendamping: MGBS Bahasa Inggris.</p>
+                </div>
+            </div>
+
+            <div class="kartu">
+                <img src="resources/photos/Juara 3.jpeg" alt="Lomba Peneliti Belia" class="gambar-juara">
+                <div class="kartu-isi">
+                    <h3>Juara 1 dan 3 Pada Lomba Peneliti Belia (LPB) di PUTech</h3>
+                    <p>SMA Kolese Loyola kembali mengukir prestasi membanggakan di bidang seni rupa. Kenzo Ebeneezer Yu, siswa kelas XII SMA Kolese Loyola, berhasil menyabet Juara I dalam ajang Lomba Lukis yang diselenggarakan oleh Perwakilan Lembaga Perlindungan Saksi dan Korban (LPSK) Jawa Tengah.
+                        Kompetisi yang berlangsung pada Minggu, 9 Agustus 2026 ini bertempat di Kantor Perwakilan LPSK Jawa Tengah. Mengusung tema “LPSK: Perlindungan Saksi dan Korban, Menghadirkan Keadilan bagi Semua”, Kenzo mampu menerjemahkan gagasan tentang pentingnya rasa aman, perlindungan hukum,
+                        dan penegakan keadilan bagi masyarakat ke dalam sebuah karya visual yang sarat makna dan bernilai estetis tinggi.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container1">
+        <a href="welcome.html" class="tombol">Kembali ke beranda</a>
+        <a href="ekstrakulikuler.html" class="tombol">Lihat ekstrakulikuler</a>
     </div>
 
     
