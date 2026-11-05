@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ekstrakulikuler - SMA Kolese Loyola</title>
+    <style>
+    @font-face {
+        font-family: 'Source Sans 3';
+        src: url('resources/font/Source_Sans_3/SourceSans3-VariableFont_wght.ttf');
+        font-weight: 200 900;
+    }
+    .footer {
+        padding: 24px;
+        background-color: #1B2F4B;
+        color: #D5DCE8;
+        text-align: center;
+        font-size: 14px;
+    }
+    .body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        color: #2B2B2B;
+        background-color: #ffffffb8;
+    }
+    .navigasi-bar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 18px 48px;
+        background-color: #FFFFFF;
+        border-bottom: 1px solid #E4E8EE;
+    }
+    .menu {
+        display: flex;
+        gap: 80px;
+    }
+    .no-underlined {
+        color: black;
+        text-decoration: none;
+    }
+    .container1 {
+        display: flex;
+        align-items: center;
+        gap: 80px;
+        max-width: 1100px;
+        margin: 30px auto;
+        justify-content: center;
+    }
+    .judul-besar {
+        font-size: 52px;
+        color: #1B2F4B;
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0;
+        line-height: 1.1;
+    }
+    .subjudul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 16px;
+    }
+    .teks-subjudul {
+        margin: 0 0 14px 0;
+        font-size: 18px;
+        color: #5A6575;
+        text-align: center;
+    }
+    .hiasan {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+    .hiasan-garis {
+        width: 60px;
+        height: 2px;
+        background-color: #C8A24A;
+    }
+    .hiasan-titik {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #C8A24A;
+    }
+    .ekstrakulikuler {
+        display: flex;
+        flex-direction: column;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 0 24px;
+    }
+    .ekskul-baris {
+        display: flex;
+        align-items: center;
+        gap: 56px;
+        padding: 40px 0;
+        border-bottom: 1px solid #E4E8EE;
+        flex-wrap: wrap;
+    }
+    .ekskul-baris.balik {
+        flex-direction: row-reverse;     
+    }
+    .ekskul-foto {
+        flex: 1 1 380px;
+    }
+    .gambar {
+        display: block;
+        width: 100%;
+        height: 280px;
+        object-fit: cover;
+        border-radius: 16px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    }
+    .kategori {
+        display: inline-block;
+        padding: 4px 14px;
+        margin-bottom: 12px;
+        background-color: #F3F5F8;
+        border: 1px solid #E4E8EE;
+        border-radius: 20px;
+        color: #1B2F4B;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .ekskul-nama {
+        margin: 0 0 8px 0;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 32px;
+        color: #1B2F4B;
+    }
+    .ekskul-teks {
+        flex: 1 1 380px;
+        font-family: 'Source Sans 3', Arial, Helvetica, sans-serif;
+    }
+    .garis-emas {
+        width: 60px;
+        height: 4px;
+        background-color: #C8A24A;
+        margin: 12px 0 20px 0;
+    }
+    .ekskul-deskripsi {
+        margin: 0 0 20px 0;
+        font-size: 17px;
+        line-height: 1.7;
+        color: #3A4350;
+    }
+    .info-baris {
+        display: flex;
+        gap: 12px;
+    }
+    .info-kotak {
+        flex: 1;
+        padding: 12px 16px;
+        background-color: #F3F5F8;
+        border-radius: 10px;
+    }
+    .info-label {
+        font-size: 12px;
+        color: #5A6575;
+        margin-bottom: 2px;
+    }
+    .info-isi {
+        font-size: 15px;
+        font-weight: bold;
+        color: #1B2F4B;
+    }
+    
+    </style>
+</head>
+<body class="body">
+    <div class="navigasi-bar">
+        <div class="menu">
+            <a href="welcome.html" class="no-underlined">Beranda</a>
+            <a href="prestasi.html" class="no-underlined">Prestasi</a>
+            <a href="fasilitas.html" class="no-underlined">Fasilitas</a>
+            <a href="bebas.html" class="no-underlined">Ekstrakulikuler</a>
+            <a href="info.html" class="no-underlined">Info</a>
+        </div>
+    </div>
+
+    <div class="container1">
+        <h1 class="judul-besar">Ekstrakulikuler</h1>
+    </div>
+
+    <div class="subjudul">
+        <p class="teks-subjudul">Temukan kegiatan yang sesuai dengan minat dan bakatmu</p>
+        <div class="hiasan">
+            <div class="hiasan-garis"></div>
+            <div class="hiasan-titik"></div>
+            <div class="hiasan-garis"></div>
+        </div>
+    </div>
+
+    <div class="ekstrakulikuler">
+
+        <div class="ekskul-baris">
+            <div class="ekskul-foto">
+                <img src="resources/photos/Basket.jpg" alt="Foto Basket" class="gambar">
+            </div>
+            <div class="ekskul-teks">
+                <div class="kategori">Olahraga</div>
+                <h2 class="ekskul-nama">Basket</h2>
+                <div class="garis-emas"></div>
+                <p class="ekskul-deskripsi">Basket adalah salah satu olahraga paling bergengsi di Loyola. Basket Loyola sering mengikuti beberapa kejuaran yang diadakan oleh Kota Semarang dan sering menjadi juara</p>
+                <div class="info-baris">
+                    <div class="info-kotak">
+                        <div class="info-label">Tempat</div>
+                        <div class="info-isi">Aula/Lapangan Edmund</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ekskul-baris balik">
+            <div class="ekskul-foto">
+                <img src="resources/photos/Gamelan Soepra.jpg" alt="Foto Gamelan Soepra" class="gambar">
+            </div>
+            <div class="ekskul-teks">
+                <div class="kategori">Seni</div>
+                <h2 class="ekskul-nama">Gamelan Soepra</h2>
+                <div class="garis-emas"></div>
+                <p class="ekskul-deskripsi">Gamelan Soepra adalah seperangkat gamelan adaptasi yang memadukan tangga nada diatonis khas Barat dengan instrumen tradisional Jawa, dikembangkan khusus di SMA Kolese Loyola Semarang</p>
+                <div class="info-baris">
+                    <div class="info-kotak">
+                        <div class="info-label">Tempat</div>
+                        <div class="info-isi">Gallery</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ekskul-baris">
+            <div class="ekskul-foto">
+                <img src="resources/photos/Lopala.jpg" alt="Foto Lopala" class="gambar">
+            </div>
+            <div class="ekskul-teks">
+                <div class="kategori">Petualangan</div>
+                <h2 class="ekskul-nama">Lopala</h2>
+                <div class="garis-emas"></div>
+                <p class="ekskul-deskripsi">Lopala adalah salah satu organisasi yang dimana kegiatannya berpetualang. Lopala akan membuat acara sendiri dimana anggota dari lopala akan pergi ke alam.</p>
+                <div class="info-baris">
+                    <div class="info-kotak">
+                        <div class="info-label">Tempat</div>
+                        <div class="info-isi">Loyola/Alam</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ekskul-baris balik">
+            <div class="ekskul-foto">
+                <img src="resources/photos/KomProg.jpg" alt="Foto Gamelan Soepra" class="gambar">
+            </div>
+            <div class="ekskul-teks">
+                <div class="kategori">Teknologi</div>
+                <h2 class="ekskul-nama">Komputer Program</h2>
+                <div class="garis-emas"></div>
+                <p class="ekskul-deskripsi">Komputer Program adalah salah satu ekstra yang mempelajari coding dan juga berbagai pengetahuan komputer lainnya.</p>
+                <div class="info-baris">
+                    <div class="info-kotak">
+                        <div class="info-label">Tempat</div>
+                        <div class="info-isi">Laboratorium Komputer</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer">Dibuat Oleh Joshua Austin Sindhunata XII-J/23</footer>
+</body>
+</html>
