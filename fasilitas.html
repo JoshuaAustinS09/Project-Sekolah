@@ -59,6 +59,63 @@
         color: #5A6575;
         text-align: center;
     }
+    .baris-kartu {
+        display: flex;
+        flex-wrap: wrap;             
+        gap: 24px;
+    }
+    .kartu {
+        flex: 1 1 30%;               
+        min-width: 240px;
+        display: flex;
+        flex-direction: column;      
+        background-color: #FFFFFF;
+        border: 1px solid #E4E8EE;
+        border-radius: 12px;
+        overflow: hidden;
+    }
+    .kartu-isi {
+        padding: 16px 20px 20px 20px;
+        text-align: center;
+    }
+    .kartu-nama {
+        font-family: Georgia, "Times New Roman", serif;
+        font-weight: bold;
+        font-size: 18px;
+        color: #1B2F4B;
+        margin-bottom: 8px;
+    }
+    .kartu-deskripsi {
+        margin: 0;
+        font-size: 14px;
+        line-height: 1.6;
+        color: #5A6575;
+    }
+    .tombol {
+        display: inline-block;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 8px;
+        background-color: #dfe1e4;
+        color: #000000;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        text-decoration: none;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .container2 {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 0 24px 50px 24px;
+    }
+    .gambar{
+        display: block;
+        width: 100%;
+        height: 200px;         
+        object-fit: cover;
+    }
     
     </style>
 </head>
@@ -73,18 +130,67 @@
         </div>
     </div>
 
+    <div class="container1" style="justify-content: right;">
+        <a href="welcome.html" class="tombol">Kembali ke beranda</a>
+    </div>
+
     <div class="container1">
         <h1 class="judul-besar">Fasilitas Loyola</h1>
     </div>
 
     <div class="subjudul">
         <p class="teks-subjudul">Beberapa fasilitas yang dimiliki SMA Kolese Loyola</p>
-        <div class="hiasan">
-            <div class="hiasan-garis"></div>
-            <div class="hiasan-titik"></div>
-            <div class="hiasan-garis"></div>
+    </div>
+
+    <div class="container2">
+        <div class="baris-kartu">
+            <div class="kartu">
+                <img src="resources/photos/Lapangan Bola.jpg" alt="Lapangan Bola" class="gambar">
+                <div class="kartu-isi">
+                    <div class="kartu-nama">Lapangan Bola</div>
+                    <p class="kartu-deskripsi">Lapangan bola digunakan untuk kegiatan olahraga, perlombaan, upacara dan acara-acara lainnya</p>
+                </div>
+            </div>
+            <div class="kartu">
+                <img src="resources/photos/Lab Fisika.jpg" alt="Laboratorium Fisika" class="gambar">
+                <div class="kartu-isi">
+                    <div class="kartu-nama">Laboratorium Fisika</div>
+                    <p class="kartu-deskripsi">Laboratorium fisika digunakan untuk melakukan praktek pelajaran fisika. Terdapat banyak peralatan fisika disini.</p>
+                </div>
+            </div>
+            <div class="kartu">
+                <img src="resources/photos/Lab Kimia.jpg" alt="Laboratorium Kimia" class="gambar">
+                <div class="kartu-isi">
+                    <div class="kartu-nama">Laboratorium Kimia</div>
+                    <p class="kartu-deskripsi">Laboratorium kimia digunakan untuk melakukan praktek pelajaran kimia. Terdapat banyak peralatan kimia disini.</p>
+                </div>
+            </div>
+            <div class="kartu">
+                <img src="resources/photos/Lab Komputer.jpg" alt="Laboratorium Komputer" class="gambar">
+                <div class="kartu-isi">
+                    <div class="kartu-nama">Laboratorium Komputer</div>
+                    <p class="kartu-deskripsi">Laboratorium komputer digunakan untuk pelajaran komputer. Terdapat 36 komputer yang tersedia.</p>
+                </div>
+            </div>
+            <div class="kartu">
+                <img src="resources/photos/UKS.jpg" alt="UKS" class="gambar">
+                <div class="kartu-isi">
+                    <div class="kartu-nama">UKS</div>
+                    <p class="kartu-deskripsi">UKS digunakan jika terdapat anak yang jatuh sakit saat sekolah. Tersedia berbagai peralatan medis dan juga kursi roda.</p>
+                </div>
+            </div>
+            <div class="kartu">
+                <img src="resources/photos/Aula.jpg" alt="Aula" class="gambar">
+                <div class="kartu-isi">
+                    <div class="kartu-nama">Aula</div>
+                    <p class="kartu-deskripsi">Aula digunakan untuk berbagai acara dan juga tempat olahraga. Terdapat panggung, papan skor, ring basket, dan gawang futsal didalam aula.</p>
+                </div>
+            </div>
         </div>
     </div>
+
+    
+
 
     
     <footer class="footer">Dibuat Oleh Joshua Austin Sindhunata XII-J/23</footer>
